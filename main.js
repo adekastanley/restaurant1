@@ -47,7 +47,7 @@ toggler.addEventListener("click", () => {
   } else {
     closed = true;
     gsap.timeline().to(".ul-wrapper", {
-      x: -250,
+      x: -400,
     });
   }
 })

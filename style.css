@@ -13,7 +13,6 @@ body {
 }
 header {
     position: relative;
-
 }
 a{
 
@@ -38,6 +37,7 @@ p {
     /* background-color: transparent; */
     display: flex;
     height: 10dvh;
+    position: relative;
 
 }
 
@@ -89,14 +89,16 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 5rem 5rem 15rem 0 ; 
-    /* right: 1rem; */
+    /* right: -35rem; */
+    /* right:0rem; */
     flex-direction: column;
     align-items: center;
     position: absolute;
-    background-color: rgb(255, 255, 255);
-    width: 15rem;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(154, 0, 0);
+    width: 100dvw;
     height: 100dvh;
-    transform: translate(-250px);
+    transform: translate(-400px);
 }
 .ul-wrapper a, li {
     color: rgb(0, 0, 0);
@@ -109,7 +111,12 @@ p {
         width: 3rem;
         height: 3rem;
    
-        right: 3rem;
+        /* right: 3rem; */
+
+    }
+    .ul-wrapper {
+        width: 15rem;
+        transform: translate(-250px);
 
     }
 }
