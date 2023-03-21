@@ -1,0 +1,115 @@
+*, a, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    /* outline: 2px solid purple; */
+    scroll-behavior: smooth;
+}
+
+body {
+
+}
+header {
+    position: relative;
+
+}
+a{
+
+    font-weight: 300;
+    color: black;
+}
+p {
+
+    font-weight: li;
+}
+
+
+.top-logo {
+  
+}
+.nav-container {
+    width: 100%;
+    position: fixed;
+    color: white;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
+    display: flex;
+    height: 10dvh;
+
+}
+
+.nav-btn {
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 1.2rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all ease 1s;
+    /* background-color: blueviolet; */
+    z-index: 5;
+    padding-block: .7rem;
+}
+.nav-btn .lines {
+    background-color: #343F4F;
+    width: 25px;
+    height: 3px;
+    color: black;
+    transition: all ease .3s;
+}
+
+.lines:first-child{
+ 
+}
+.lines:nth-child(1){
+    background-color: #525a66;
+}
+.lines:last-child{
+  /* background-color: black; */
+}
+.nav-btn:hover {
+    cursor: pointer;
+}
+
+
+.logo-container {
+    position: relative;
+    margin-inline: auto;
+    z-index: 5;
+    top: 2rem;
+    color: black;
+}
+
+.ul-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 5rem 15rem 0 ; 
+    /* right: 1rem; */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    height: 100dvh;
+    transform: translate(-250px);
+}
+.ul-wrapper a, li {
+    color: rgb(0, 0, 0);
+    z-index: 5;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-btn {
+        width: 3rem;
+        height: 3rem;
+   
+        right: 3rem;
+
+    }
+}
